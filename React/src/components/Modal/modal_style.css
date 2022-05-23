@@ -1,0 +1,246 @@
+
+
+body {
+    margin: auto;
+    width: 1280px;
+}
+
+h1 {
+    line-height: 57px;
+    font-family: 'Montserrat';
+    font-size: 46px;
+    text-align: center;
+    margin-top:50px;
+	margin-bottom:50px;
+	color: var(--black);
+    margin: auto;
+
+}
+
+h2 {
+    line-height: 42px;
+    font-family: 'Montserrat';
+    font-size: 34px;
+    text-align: center;
+	color: var(--black);
+    margin: auto;
+
+}
+h3 {
+    line-height: 34px;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    text-align: center;
+	color: var(--black);
+    margin: auto;
+
+}
+
+.quote{
+	line-height: 34px;
+    font-family: 'Montserrat-Italic';
+    font-size: 28px;
+    text-align: center;
+	color: var(--black);
+    margin: auto;
+	
+}
+
+:root {
+  --black: #1e1e1e;
+  --gray: #9b9b9b;
+  --pink: #ffe3e3;
+}
+p{
+	margin-top: 80px;
+    width:780px;
+	margin-left: 250px;
+	text-align: justify;
+	font-size:16px;
+	color: var(--black);
+	font-family: 'Cardo';
+	line-height: 30px;
+	margin-bottom: 100px;
+}
+	
+
+img {
+    height: 720px;
+    width:1280px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+input {
+	margin-left: 0px auto;
+    width: 400px;
+    height: 35px;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Cardo';
+    padding: 0 5px;
+    margin-bottom: 25px auto;
+	margin-left:0px auto;
+
+}
+
+textarea {
+    display: block;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Cardo';
+	margin-left:75px auto;
+	margin-right:75px auto;
+	width: 850px;
+	padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+	margin-bottom:100px;
+	width: 1280px;
+    font-family: 'Montserrat';
+    font-size: 34px;
+    line-height: 42px;
+}
+
+#navbar_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+	font-family: 'Montserrat';
+	font-size: 11px;
+}
+
+
+.navbar_options {
+    text-decoration: none;
+    color: var(--black) ;
+    margin-left: 100px;
+
+}
+
+.article_button_container {
+	display: flex;
+    justify-content: flex-end;
+    margin-top: 130px;
+	margin-bottom: 90px;
+}
+
+.button {
+	height: 60px;
+    width: 300px;
+    border: 1px solid var(--gray);
+    border-radius: 50px;
+    font-size: 14px;
+	background-color: transparent;
+
+}
+
+.article_details_container {
+
+	font-family: 'Montserrat';
+	font-size: 14px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.article_details {
+    color: var(--gray);
+    display: block;
+	font-weight: bold;
+	
+}
+
+.article_details:nth-child(2):before {
+    content: '\2022';
+	padding: 0 20px;
+    
+}
+.article_details:nth-child(3):before {
+    content: '\2022';  
+    padding: 0 20px;
+}
+
+.author_name {
+    color: var(--black);
+    font-weight: bold;
+}
+
+.edit_delete_container {
+    margin: 40px 0 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit_delete_buttons {
+    padding: 0;
+	border: none;
+    background-color: transparent;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.edit_delete_buttons:nth-child(2):before {
+    content: '\007c';
+    padding: 5px;	
+}
+
+.edit_delete_buttons:nth-child(3):before {
+    content: '\007c';  
+	padding: 5px;
+}
+
+.form {
+    width: 1000px ;
+    background: white;
+    box-shadow: 0px 0px 26px 6px;	
+    align-items: center;
+    justify-content: center;
+	margin: 100px auto;
+	height: 750px auto;
+}
+
+.custom_form {
+    padding: 50px 75px;
+	
+}
+
+form {
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+	
+}
+
+
+.save_cancel_buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+	margin-bottom:50px;
+}
+
+.save_button {
+	height: 60px;
+    width: 300px;
+    border: 1px solid var(--gray);
+    border-radius: 50px;
+    font-size: 14px;
+	background-color: transparent;
+    background: var(--pink);
+}
+
+
+
